@@ -1,0 +1,277 @@
+body {
+    padding-top: 65px;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    text-align: center;
+    background-color: gray;
+}
+.navbar .nav a {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.header {
+    background-color: rgb(165, 172, 165);
+    background-color: rgba(165, 172, 165, 0.94);
+}
+h2 {
+    font-family: Helvetica Neue;
+    font-size: 40px;
+}
+.img-circle {
+    border-radius: 50%;
+    width: 280px;
+    height: 280px;
+}
+p {
+    font-size: 20px;
+}
+h3 {
+    font-size: 23px;
+}
+.banner {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #722872;
+}
+.navbar-brand> img {
+    height: 50px;
+    margin-top: -15px;
+}
+.about-me {
+    color: white;
+    text-align: center;
+    align-content:space-around;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    padding-right:10%;
+    padding-left: 10%;
+
+}
+@media (min-width: 992px) {
+    .about-me {
+        text-align: right;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 30px;
+        padding-left: 20px;
+
+    }
+}
+
+.portfolio-image {
+  max-width: 100%;
+  margin-bottom: 60px;
+}
+
+@media (min-width: 992px) {
+.portfolio-image {
+    border-radius: 50%;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 70px;
+    padding-right: 45px;
+}
+}
+.text-color {
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+.image-size {
+    max-width: 90%;
+    margin-bottom: 40px;
+}
+@media (min-width: 768px) {
+    .image-size {
+        max-width: 600px;
+    }
+}
+@media (min-width: 992px) {
+    .image-size {
+        max-width: 420px;
+    }
+    .image1 {
+        margin-right: 10px;
+        margin-left: 45px;
+    }
+    .image2 {
+        margin-left: 10px;
+        margin-right: 85px;
+    }
+}
+.navbar {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, .2);
+    box-shadow: 0 4px 5px -1px rgba(0, 0, 0, .2);
+}
+.field {
+    width: 100%;
+    box-shadow: 0 0 15px -1px rgba(0, 0, 0, .5);
+}
+
+@media (min-width: 1020px) {
+  .field {
+    max-width: 1020px;
+  }
+}
+
+.field-nav {
+    width: 100%;
+}
+
+@media (min-width: 1020px) {
+  .field-nav {
+    max-width: 1020px;
+  }
+}
+
+.projects {
+    background-color: #eee;
+    padding-bottom: 25px;
+}
+.bright {
+    max-width: 512px;
+    margin: 40px auto 30px;
+}
+.code {
+    display: inline-block;
+}
+.foot {
+    color: white !important;
+    padding-top: 25px;
+}
+.upper-foot {
+    color: #fff;
+    background-color: rgb(165, 172, 165);
+    background-color: rgba(165, 172, 165, 0.94);
+
+    padding-bottom: 70px;
+}
+
+.upper-foot-left {
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+
+.upper-foot-right {
+  margin-bottom: -20px;
+}
+
+@media (min-width: 768px) {
+  .upper-foot-right {
+    padding-top: 50px;
+  }
+}
+
+
+@media (min-width: 992px){
+  .upper-foot-right {
+    padding-top: 50px;
+  }
+}
+
+.profile> a {
+    color: #722872;
+}
+
+.button {
+    color: #fff;
+    border: solid 2px #fff;
+    border-radius: 50%;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 2.3;
+}
+
+.button:hover {
+  color: #722872;
+  background-color: #eee;
+}
+
+.upper-foot p {
+    padding-top: 20px;
+}
+.flatten {
+    margin-top: 30px;
+    margin-left: -40px;
+}
+.flatten> li {
+    list-style: none;
+    display: inline-block;
+}
+.place {
+    text-align: left;
+}
+.form-style {
+    border: 0;
+    border-radius: 0;
+    box-shadow: none !important;
+    border-bottom: 1px solid #bbb;
+    background-color: #eee;
+    font-size: 2em;
+    margin-bottom: 50px;
+}
+.btn-form-submit {
+    float: left;
+}
+#contact-me-text1 {
+    padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+  #contact-me-text1 {
+    padding-top: 30px;
+  }
+}
+
+#contact-me-text2 {
+    padding-top: 50px;
+}
+
+@media (min-width: 992px) {
+  #contact-me-text2 {
+    padding-top: 280px;
+  }
+}
+
+
+#contact-column-left {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+@media (min-width: 768px) {
+  #contact-column-left {
+    padding-left: 80px;
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contact-column-left {
+    padding-left: 70px;
+    padding-right: 40px;
+  }
+}
+
+#contact-column-right {
+    padding-left: 50px;
+    padding-right: 55px;
+    margin-top: 150px;
+}
+
+@media (min-width: 768px) {
+  #contact-column-right {
+    padding-left: 75px;
+    padding-right: 75px;
+  }
+}
+
+@media (min-width: 992px) {
+  #contact-column-right {
+    padding-left: 70px;
+    padding-right: 70px;
+    margin-top: 10px;
+  }
+}
