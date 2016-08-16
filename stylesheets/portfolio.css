@@ -32,9 +32,11 @@ h3 {
     padding-bottom: 20px;
     background-color: #722872;
 }
-.navbar-brand> img {
-    height: 50px;
-    margin-top: -15px;
+.navbar-brand {
+    color: white !important;
+    font-size: 30px;
+
+    font-family: cursive;
 }
 .about-me {
     color: white;
@@ -49,11 +51,11 @@ h3 {
 @media (min-width: 992px) {
     .about-me {
         text-align: right;
-        padding-top: 30px;
-        padding-bottom: 30px;
-        padding-right: 30px;
-        padding-left: 20px;
-
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-right: 50px;
+        margin-left: -40px;
+        margin-right: -5px;
     }
 }
 
@@ -86,15 +88,17 @@ h3 {
 }
 @media (min-width: 992px) {
     .image-size {
-        max-width: 420px;
+        width: 420px;
     }
     .image1 {
         margin-right: 10px;
         margin-left: 45px;
+        height: 300px;
     }
     .image2 {
         margin-left: 10px;
         margin-right: 85px;
+        height: 300px;
     }
 }
 .navbar {
@@ -221,7 +225,7 @@ h3 {
 
 @media (min-width: 992px) {
   #contact-me-text1 {
-    padding-top: 30px;
+    padding-top: 60px;
   }
 }
 
@@ -231,7 +235,7 @@ h3 {
 
 @media (min-width: 992px) {
   #contact-me-text2 {
-    padding-top: 280px;
+    padding-top: 320px;
   }
 }
 

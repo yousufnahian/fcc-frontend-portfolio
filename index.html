@@ -32,7 +32,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#"><img src="http://qlip.in/sites/default/files/qlip.png" alt=""></a>
+                <a class="navbar-brand" href="#">Nahian</a>
             </div>
             <div id="navbar" class="collapse navbar-collapse pull-right">
                 <ul class="nav navbar-nav">
@@ -49,13 +49,13 @@
     <div id="about" class="container field header">
         <div class="row">
             <div class="col-md-8 about-me">
-                <p>The name is Justin and I'm an UX/UI designeveloper, with extensive practical experience in brand strategy, creative direction and project management; devoted to Functional Programming and Information Architecture. Also a huge fan of semantics
-                    and futuristic interfaces.</p>
+                <p>I am a professional front-end developer. I specialize in responsive design from ground-up using html, css, twitter bootstrap and jQuery. My focus is on designing professional websites with responsive capabilities and unique template design
+                    that includes themes, carousel, blog, dashboard etc. </p>
                 <i class="fa fa-code fa-3x code" aria-hidden="true"></i>
-                <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
+                <h3>Front-End Developer - Web Designer</h3>
             </div>
             <div class="col-md-4 portfolio-image">
-                <img src="http://qlip.in/avatar.png" alt="responsive image" class="img-circle img-responsive center-block">
+                <img src="images/profile.jpeg" alt="responsive image" class="img-circle img-responsive center-block">
             </div>
         </div>
     </div>
@@ -64,28 +64,10 @@
         <h2 class="text-muted text-color"><strong>PORTFOLIO</strong></h2>
         <div class="row">
             <div class="col-md-6">
-                <img src="http://qlip.in/sites/default/files/YMCA-Realtor-Donation-3.jpg" class="img-responsive image-size center-block image1" alt="Generic placeholder image">
+                <a href="https://codepen.io/yousufnahian/full/XKkOmB/"><img src="images/tribute.png" class="img-responsive img-thumbnail image-size center-block image1" alt="Generic placeholder image"></a>
             </div>
             <div class="col-md-6">
-                <img src="http://qlip.in/sites/default/files/webcaballero.jpg" class="img-responsive image-size center-block image2" alt="Generic placeholder image">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <img src="http://qlip.in/sites/default/files/webmarqas.jpg" class="img-responsive image-size center-block image1" alt="Generic placeholder image">
-            </div>
-
-
-            <div class="col-md-6">
-                <img src="http://qlip.in/sites/default/files/webbrandaxis.jpg" class="img-responsive image-size center-block image2" alt="Generic placeholder image">
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-6">
-                <img src="http://qlip.in/sites/default/files/panacea1.jpg" class="img-responsive image-size center-block image1" alt="Generic placeholder image">
-            </div>
-            <div class="col-md-6">
-                <img src="http://qlip.in/sites/default/files/webgatomalo.jpg" class="img-responsive image-size center-block image2" alt="Generic placeholder image">
+                <a href="https://yousufnahian.github.io/fcc-frontend-portfolio/"><img src="images/portfolio.png" class="img-responsive img-thumbnail image-size center-block image2" alt="Generic placeholder image"></a>
             </div>
         </div>
     </div>
@@ -110,8 +92,7 @@
                 </form>
             </div>
             <div class="col-md-6" id="contact-column-right">
-                <p class="text-muted place">Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to solve your sudoku, random questions about the universe and the meaning of life, or even if only for some nice
-                    Fika here in stunning Toronto... just feel free to drop me a line anytime.</p>
+                <p class="text-muted place">Want to get in touch with me? Be it to request more info about myself or my experience, just feel free to drop me a line anytime.</p>
                 <p id="contact-me-text1" class="text-muted place">I promise to reply A.S.A.P.</p>
                 <p id="contact-me-text2" class="text-muted place">Note: No spam/soliciting pour moi, merci:)</p>
             </div>
@@ -151,21 +132,21 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <script>
-    $(document).ready(function() {
-      $(".navbar .nav a").on("click", function(event) {
-        if(this.hash !== "") {
-          event.preventDefault();
+        $(document).ready(function() {
+            $(".navbar .nav a").on("click", function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
 
-          var hash = this.hash;
+                    var hash = this.hash;
 
-          $("html, body").animate({
-            scrollTop: $(hash).offset().top - 60
-          }, 900, function() {
-            window.location.hash = hash
-          });
-        }
-      });
-    });
+                    $("html, body").animate({
+                        scrollTop: $(hash).offset().top - 60
+                    }, 900, function() {
+                        window.location.hash = hash
+                    });
+                }
+            });
+        });
     </script>
 </body>
 
